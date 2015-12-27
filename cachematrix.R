@@ -42,3 +42,8 @@ cacheSolve <- function(x, ...) {
       x$setinverse(inverseM)
       return(inverseM)
 }
+
+##Recources used in this assignment:
+##1. http://www.johnmyleswhite.com/notebook/2009/12/16/quick-review-of-matrix-algebra-in-r/
+##2. http://rpubs.com/yelangya3826850/CacheTime-consumingComputations
+##3. http://masterr.org/r/how-to-cache-a-matrix-inversion-in-r/
